@@ -221,7 +221,7 @@ public:
         {
             if (!clouded)
             {
-                for (int i = 0; i < modifier; i++)
+				for (unsigned int i = 0; i < modifier; i++)
                 {
                     if (i == 0)
                     {
@@ -254,7 +254,7 @@ public:
             }
             else
             {
-                for (int i = 0; i < modifier; i++)
+				for (unsigned int i = 0; i < modifier; i++)
                 {       
                     Creature* head = me->SummonCreature(CREATURE_HEAD_FIRE, backgroundsocket[i], TEMPSUMMON_MANUAL_DESPAWN);
                     if (head)
@@ -288,7 +288,7 @@ public:
         {
             if (!clouded)
             {
-                for (int i = 0; i < modifier; i++)
+				for (unsigned int i = 0; i < modifier; i++)
                 {
                     if (i == 0)
                     {
@@ -320,7 +320,7 @@ public:
             }
             else
             {
-                for (int i = 0; i < modifier; i++)
+				for (unsigned int i = 0; i < modifier; i++)
                 {
                     Creature* head = me->SummonCreature(CREATURE_HEAD_FROST, backgroundsocket[i + 1], TEMPSUMMON_MANUAL_DESPAWN);
 
@@ -353,7 +353,7 @@ public:
         {
             if (!clouded)
             {
-                for (int i = 0; i < modifier; i++)
+				for (unsigned int i = 0; i < modifier; i++)
                 {
                     if (i == 0)
                     {
@@ -403,7 +403,7 @@ public:
             }
             else
             {
-                for (int i = 0; i < modifier; i++)
+                for (unsigned int i = 0; i < modifier; i++)
                 {
                     Creature* head = me->SummonCreature(CREATURE_HEAD_VENOM, backgroundsocket[i + 2], TEMPSUMMON_MANUAL_DESPAWN);
 
