@@ -2,7 +2,7 @@
 #include "deadmines.h"
 #include "Vehicle.h"
 
-//todo: реализовать прыжки хеликса, сделать получше бомбы
+
 enum ScriptTexts
 {
     SAY_AGGRO    = 5,

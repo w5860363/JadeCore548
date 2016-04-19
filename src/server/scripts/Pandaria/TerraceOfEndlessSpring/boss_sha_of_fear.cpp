@@ -1186,8 +1186,8 @@ public:
         InstanceScript* pInstance;
         EventMap events;
 
-        int32 stackstobreak;
-        int32 timertodespawn;
+        uint32 stackstobreak;
+        uint32 timertodespawn;
 
         void Init()
         {

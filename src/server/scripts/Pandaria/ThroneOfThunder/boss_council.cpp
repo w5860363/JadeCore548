@@ -797,7 +797,7 @@ public:
                 int32 calc = 10000 + (damage * 10000);
 
                 me->CastCustomSpell(me, SPELL_CAST_DARK_POWER, &calc, NULL, NULL, true, NULL);
-                damage += 0.10;
+                damage += 0.10f;
                 events.ScheduleEvent(EVENT_CAST_DARK_POWER, 1000);
                 break;
             }
@@ -1169,7 +1169,7 @@ public:
                 int32 calc = 10000 + (damage * 10000);
 
                 me->CastCustomSpell(me, SPELL_CAST_DARK_POWER, &calc, NULL, NULL, true, NULL);
-                damage += 0.10;
+                damage += 0.10f;
 
                 events.ScheduleEvent(EVENT_CAST_DARK_POWER, 1000);
                 break;
@@ -1534,7 +1534,7 @@ public:
                 int32 calc = 10000 + (damage * 10000);
 
                 me->CastCustomSpell(me, SPELL_CAST_DARK_POWER, &calc, NULL, NULL, true, NULL);
-                damage += 0.10;
+                damage += 0.10f;
 
                 events.ScheduleEvent(EVENT_CAST_DARK_POWER, 10000);
                 break;
@@ -1566,8 +1566,8 @@ public:
         bool intro;
         bool explode;
         float damage;
-        int32 timepertick;
-        int32 hppcts;
+        uint32 timepertick;
+        uint32 hppcts;
         Unit* target = NULL;
 
         void Reset()
@@ -1939,7 +1939,7 @@ public:
 
                 int32 calc = 10000 + (damage * 10000);
                 me->CastCustomSpell(me, SPELL_CAST_DARK_POWER, &calc, NULL, NULL, true, NULL);
-                damage += 0.10;
+                damage += 0.10f;
 
                 events.ScheduleEvent(EVENT_CAST_DARK_POWER, 1000);
                 break;
@@ -2000,7 +2000,7 @@ public:
 
         InstanceScript* instance;
         EventMap events;
-        int32 jumpTime;
+        uint32 jumpTime;
         Creature* target = NULL;
         std::list<Creature*> councilBosses;
         bool contact;
@@ -2095,7 +2095,7 @@ public:
 
         InstanceScript* pInstance;
         EventMap events;
-        int32 jumpTime;
+        uint32 jumpTime;
         Player* target = NULL;
 
         void Reset()
@@ -2168,8 +2168,8 @@ public:
 
         InstanceScript* pInstance;
         EventMap events;
-        int32 ticktime;
-        int32 slowticktime;
+        uint32 ticktime;
+        uint32 slowticktime;
 
         void Reset()
         {

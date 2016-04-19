@@ -1,9 +1,6 @@
 #include "ScriptPCH.h"
 #include "blackrock_caverns.h"
 
-//todo: реализовать призыв о помощи
-//todo: реализовать комбо цепи+аое
-
 enum ScriptTexts
 {
 	SAY_AGGRO	= 0,

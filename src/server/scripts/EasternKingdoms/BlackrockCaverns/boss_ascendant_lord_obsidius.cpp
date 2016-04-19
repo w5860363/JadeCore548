@@ -1,8 +1,6 @@
 #include "ScriptPCH.h"
 #include "blackrock_caverns.h"
 
-//todo: сделать спелл трансформации
-
 enum ScriptTexts
 {
 	SAY_AGGRO			= 0,

@@ -2,7 +2,7 @@
 #include "deadmines.h"
 
 
-//todo: реализовать робота и аддов на героике, включение робота после убийства пары мобов
+
 enum ScriptTexts
 {
     SAY_AGGRO    = 0,

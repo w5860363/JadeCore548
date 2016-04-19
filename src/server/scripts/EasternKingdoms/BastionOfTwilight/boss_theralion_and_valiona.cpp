@@ -49,13 +49,13 @@ enum Spells
     SPELL_TWILIGHT_METEORITE_MARK    = 88518,
     SPELL_DEEP_BREATH                = 86059,
     SPELL_TWILIGHT_FLAMES_TRIGGER    = 86194,
-    SPELL_TWILIGHT_FLAME_DMG_1        = 86199, //бьет по обычному миру
-    SPELL_TWILIGHT_FLAME_DMG_25_1    = 92868, //бьет по обычному миру
-    SPELL_TWILIGHT_FLAME_DMG_10H_1    = 92869, //бьет по обычному миру
-    SPELL_TWILIGHT_FLAME_DMG_25H_1    = 92870, //бьет по обычному миру
-    SPELL_TWILIGHT_FLAME_DMG_2        = 86228, //бьет по сумеречному миру
-    SPELL_TWILIGHT_FLAME_DMG_25_2    = 92867, //бьет по сумеречному миру
-    SPELL_COSMETIC_TWILIGHT_BREATH    = 78954, //возможно неверный
+    SPELL_TWILIGHT_FLAME_DMG_1        = 86199, 
+    SPELL_TWILIGHT_FLAME_DMG_25_1    = 92868, 
+    SPELL_TWILIGHT_FLAME_DMG_10H_1    = 92869, 
+    SPELL_TWILIGHT_FLAME_DMG_25H_1    = 92870,
+    SPELL_TWILIGHT_FLAME_DMG_2        = 86228,
+    SPELL_TWILIGHT_FLAME_DMG_25_2    = 92867, 
+    SPELL_COSMETIC_TWILIGHT_BREATH    = 78954, 
 
     //theralion
     SPELL_ENGULFING_MAGIC                            = 86607,
@@ -100,14 +100,14 @@ enum Spells
 
     //twilight ream & mobs spells
     SPELL_TWILIGHT_PROTECTION_BUFF                    = 86415,
-    SPELL_TWILIGHT_SHIFT_AURA_1                        = 86202, //от глубокого дыхания
-    SPELL_TWILIGHT_SHIFT_AURA_25_1                    = 92889, //от глубокого дыхания
-    SPELL_TWILIGHT_SHIFT_AURA_10H_1                    = 92890, //от глубокого дыхания
-    SPELL_TWILIGHT_SHIFT_AURA_25H_1                    = 92891, //от глубокого дыхания
-    SPELL_TWILIGHT_SHIFT_AURA_2                        = 88436, //от разрушения
-    SPELL_TWILIGHT_SHIFT_AURA_25_2                    = 92892, //от разрушения
-    SPELL_TWILIGHT_SHIFT_AURA_10H_2                    = 92893, //от разрушения
-    SPELL_TWILIGHT_SHIFT_AURA_25H_2                    = 92894, //от разрушения
+    SPELL_TWILIGHT_SHIFT_AURA_1                        = 86202, 
+    SPELL_TWILIGHT_SHIFT_AURA_25_1                    = 92889, 
+    SPELL_TWILIGHT_SHIFT_AURA_10H_1                    = 92890, 
+    SPELL_TWILIGHT_SHIFT_AURA_25H_1                    = 92891,
+    SPELL_TWILIGHT_SHIFT_AURA_2                        = 88436, 
+    SPELL_TWILIGHT_SHIFT_AURA_25_2                    = 92892, 
+    SPELL_TWILIGHT_SHIFT_AURA_10H_2                    = 92893, 
+    SPELL_TWILIGHT_SHIFT_AURA_25H_2                    = 92894,
     SPELL_COLLAPSING_TWILIGHT_PORTAL_VISUAL            = 86291,
     SPELL_UNSTABLE_TWILIGHT_VISUAL                    = 86302,
     SPELL_UNSTABLE_TWILIGHT_DMG                        = 86305,
@@ -678,7 +678,7 @@ class boss_valiona : public CreatureScript
             {
                 _Reset();
 
-                //правки общих спеллов тоже тут
+                //правки общи?спелло?тоже ту?
 
                 instance->DoRemoveAurasDueToSpellOnPlayers(SPELL_TWILIGHT_PROTECTION_BUFF);
                 instance->DoRemoveAurasDueToSpellOnPlayers(SPELL_TWILIGHT_SHIFT_AURA_1);

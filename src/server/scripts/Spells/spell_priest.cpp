@@ -528,7 +528,6 @@ int32 mendingCharges = 0;
 // Player of Mending - 33076
 // Heal by Player of Mending - 33110
 // Glyph of Prayer of Mending - 55685
-// Доделать. Попробовать через исчезание ауры самого мендинга, записать какая это аура по счету и если первая - то увеличить хил.
 class spell_pri_glyph_of_player_of_mending : public SpellScriptLoader
 {
     public:
